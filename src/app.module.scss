@@ -60,8 +60,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  .sestion__child {
-    width: 75%;
+  // .sestion__child {
+  //   padding: 30px;
+  //   width: 75%;
+  // }
+  .diff {
+    margin-top: 60px;
   }
   nav {
     display: flex;

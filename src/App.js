@@ -99,7 +99,7 @@ function App() {
         </div>
         <div className={styles.sestion}>
           <div className={styles.section__child}>
-            <h2>Best Value Trips</h2>
+            <h2 className={styles.diff}>Best Value Trips</h2>
             <p>Best offers trips from us</p>
           </div>
           <nav>
