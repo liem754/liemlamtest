@@ -1,0 +1,19 @@
+.container {
+  z-index: 0;
+  color: #000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 20px;
+  width: 180px;
+  h2 {
+    width: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid #efeaea;
+    font-size: 14px;
+  }
+  h2:hover {
+    color: red;
+  }
+}

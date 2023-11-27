@@ -1,0 +1,111 @@
+.container {
+  width: 100%;
+  border: 1px solid #d5d2d2;
+  border-radius: 4px;
+  position: relative;
+  //   transition: transform 0.8s ease 3s;
+  transition-delay: 0.1s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  .sale {
+    padding: 8px 6px;
+    border-radius: 50%;
+    background-color: rgb(14, 190, 179);
+    color: white;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    font-size: 14px;
+  }
+  .price {
+    transition: transform box-shadow 0.6s 0.8s ease;
+    background-color: rgb(243, 87, 87);
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 160px;
+    left: 0;
+    font-weight: 800;
+    span:first-child {
+      margin-right: 5px;
+      text-decoration: line-through;
+      color: #cfc9c9;
+      font-size: 13px;
+    }
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+  .child {
+    padding: 15px;
+    h3 {
+      font-size: 16px;
+    }
+
+    .read {
+      margin-top: 10px;
+      display: flex;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 400;
+      h2 {
+        font-size: 15px;
+        font-weight: 400;
+      }
+      p {
+        margin-top: 11px;
+
+        // margin-bottom: -2px;
+      }
+    }
+    h2,
+    p {
+      margin: 8px 0 10px 0;
+      text-align: left;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    p {
+      margin: 2px 0 10px 0;
+    }
+    .star {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h2 {
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        p {
+          padding: 0;
+          margin-bottom: -2px;
+        }
+        span:first-child {
+          display: block;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
+.container:hover {
+  transform: translateY(-8px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container:hover .price {
+  transform: scale(1.1);
+}
+@keyframes animationName {
+  0% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+  /* Định nghĩa các khung khóa và thuộc tính tương ứng */
+}

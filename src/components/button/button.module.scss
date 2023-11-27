@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  padding: 9px;
+  border-radius: 4px;
+  background-color: rgb(244, 88, 88);
+  color: #fff;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  span {
+    margin-top: 3px;
+  }
+}
